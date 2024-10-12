@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registreer.</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>Registreer.</h1>
+    
+    <form action="mailto:naam@server.com?subject=Registreer" method="post">
+
+        <label for="naam">Naam: </label>
+        <input type="text" name="naam" id="naam" required>
+        <br>
+        <label for="voornaam">Voornaam: </label>
+        <input type="text" name="voornaam" id="voornaam" required>
+        <br>
+        <label for="email">E-mail: </label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <label for="geboortedatum">Geboortedatum: </label>
+        <input type="date" name="geboortedatum" id="geboortedatum">
+        <br>
+        <label for="nieuwsbrief">Abboneren op nieuwsbrief: </label>
+        <input type="checkbox" name="nieuwsbrief" id="nieuwsbrief" checked>
+        <br>
+        <label for="privacy">Ik ga akkoord met het privacybeleid: </label>
+        <input type="checkbox" name="privacy" id="privacy" required>
+        <br>
+        <input type="submit" value="Registreer">
+        <input type="reset" value="Clear">
+
+        
+
+    </form>
+
+</body>
+
+</html>
